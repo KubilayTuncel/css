@@ -1,0 +1,21 @@
+body{
+    font-size: 2rem;
+}
+:root{
+    --blue: #1e90ff;
+    --green: #b3ff00;
+}
+.title{
+    text-align: center;
+    color: var(--blue);
+}
+
+.about{
+    text-align: center;
+    background-color: var(--green) ;
+}
+
+mark{
+    background-color: var(--blue);
+    color: var(--green);
+}

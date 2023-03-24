@@ -1,0 +1,24 @@
+.kutu1{
+    background-color: blue;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.kutu2{
+background-color: aqua;
+margin: 20px;
+padding: 30px;
+font-size: 2rem;
+}
+
+.kutu3{
+    font-size: 2rem;
+    background-color: chartreuse;
+    padding-left: 50px;
+    margin-left: 60px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+.paraf{
+    padding: 20px;
+}

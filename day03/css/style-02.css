@@ -1,0 +1,30 @@
+.list{
+    list-style-type: square;
+}
+.pixel{
+    background-color: aqua;
+    width: 300px;
+}
+
+.yüzde{
+background-color: aquamarine;
+width: 50%;
+height: 40px;
+}
+.viewport{
+    background-color: chartreuse;
+    width: 50vw;
+}
+.vh{
+    background-color: blueviolet;
+    height: 5vh;
+}
+.em{
+background-color: salmon;
+font-size: 2em;
+}
+.rem{
+    background-color: chocolate;
+    font-size: 2rem;
+}
+

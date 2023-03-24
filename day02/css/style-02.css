@@ -1,0 +1,12 @@
+
+body{
+    font-size: 2rem;
+}
+nav.main-menü{
+    background-color: lightgray;
+    text-align: center;
+}
+.aktif{
+    background-color: black;
+    color: white;
+}

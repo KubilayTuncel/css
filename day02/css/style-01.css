@@ -1,0 +1,16 @@
+/*aciklama satiri bu sekilde olusturulabiliyor.*/
+
+.baslik{
+    color: green !important;
+}
+p{
+    font-size: 2rem;
+    color: orange;
+}
+.paraf2{
+    color: aqua;
+}
+
+p.paraf2.renk{
+    color: darkviolet;
+}

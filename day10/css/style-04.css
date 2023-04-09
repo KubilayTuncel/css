@@ -1,0 +1,46 @@
+.box1{
+    width:500px;
+    border: 5px solid red;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box2{
+    box-sizing: border-box;
+    width:500px;
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box3{
+    background-image: url(../../day04/img/iwacth.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    background-size: cover;
+}
+
+div.box4{
+    background-image: url(../../day04/img/iwacth.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    background-size: contain;
+}
+
+.box5{
+    background-image: url(../../day04/img/iwacth.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    background-size: cover; 
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

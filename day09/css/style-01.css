@@ -1,0 +1,11 @@
+.menu{
+    list-style-type: none;
+}
+
+.menu li::before{
+    font: var(--fa-font-solid);
+    content:"\f101";
+    font-size: 0.7rem;
+    margin-right:10px ;
+    color: red;
+}

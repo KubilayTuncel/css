@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container div:nth-child(1){
+    background-color: red; 
+    flex: 1 0 200px;
+}
+.container div:nth-child(2){
+    background-color: greenyellow;
+}
+.container div:nth-child(3){
+    background-color: chocolate;
+}
+.container div:nth-child(4){
+    background-color: blueviolet;
+}
+.container div:nth-child(5){
+    background-color: aqua;
+}

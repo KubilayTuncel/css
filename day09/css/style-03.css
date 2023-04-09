@@ -1,0 +1,26 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container div:nth-child(1){
+    background-color: red;
+    flex: 1 0 100px;
+}
+.container div:nth-child(2){
+    background-color: greenyellow;
+    flex:1 0 50px;
+}
+.container div:nth-child(3){
+    background-color: chocolate;
+    flex: 2 0 250px;
+}
+.container div:nth-child(4){
+    background-color: blueviolet;
+    flex: 1;
+}
+.container div:nth-child(5){
+    background-color: aqua;
+    flex: 1;
+}

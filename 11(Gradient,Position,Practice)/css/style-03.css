@@ -1,0 +1,25 @@
+.input-group{
+background-color: rgb(48,48,48);
+display: inline-block;
+padding: 5px;
+border-radius:30px;
+position: relative;
+}
+
+.input-group input{
+    background: none;
+    border: none;
+    color:white;
+    outline: 0;
+    padding: 0 10px;
+}
+
+.input-group button{
+    border-radius: 30px;
+    background-color:aqua;
+    border: none;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+}

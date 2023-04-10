@@ -1,0 +1,42 @@
+.kutu{
+    width:100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.kutu1{
+    background-color: red;
+    transition: background-color 2s;
+}
+
+.kutu2{
+    background-color: green;
+    transition: transform 2s;
+}
+
+.kutu3{
+    background-color:blue;
+    transition: transform 0.5s, background-color 1s;
+}
+
+.kutu4{
+    background-color: chocolate;
+    transition: all 1s;
+}
+
+.kutu1:hover{
+    background-color:aqua
+}
+.kutu2:hover{
+    transform: rotate(35deg);
+}
+.kutu3:hover{
+    background-color: green;
+    transform:scale(1.5) rotate(45deg);
+}
+
+.kutu4:hover{
+    transform: scale(1.5) rotate(270deg);
+    background-color: deepskyblue;
+    border-radius: 50%;
+}
